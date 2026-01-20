@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("PragyanAI Content Generator", layout="wide")
 st.title("AMMUNATION AI")
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2, col3 = st.columns([1, 2, 2])
 
 with col2:
     st.image("download.png", width=200)
