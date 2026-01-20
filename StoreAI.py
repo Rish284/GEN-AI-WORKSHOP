@@ -7,7 +7,7 @@ st.image("download.png", width=200)
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(1)
 
 with col1:
     product = st.text_input("Product")
